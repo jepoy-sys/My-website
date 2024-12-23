@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jefherson G. Valdez BSIT-1B</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            background: #444;
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            padding: 0.5rem;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1rem;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 1rem;
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+        }
+        .image-container {
+            text-align: center;
+            margin: 1rem 0;
+        }
+        .image-container img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Website About My Self</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#interests">Interests & Hobbies</a>
+    </nav>
+
+    <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="image-container">
+                <img src="jepoy.jpg" alt="Jefherson's Photo">
+            </div>
+            <p>Hello! I'm Jefherson Gulloy Valdez,19 years of age from Pugo Cecilio,Santa Ignacia,Tarlac.Welcome to my personal website!</p>
+        </div>
+    </section>
+
+    <section id="interests">
+        <div class="container">
+            <h2>Interests & Hobbies</h2>
+            <h3>Biking</h3>
+            <p>I like riding my bike cause its good for our health and its give you freedom as you explore new places and feel the wind on your face.</p>
+
+            <h3>Travel</h3>
+            <p>I like traveling. One of my favorite things to do is go to the mountains because it's fresh air and peaceful</p>
+
+            <h3>Food</h3>
+            <p>I love food i love eating and eating and eating hehez,my latest favorite food is pinakbet cooked by my mom,its very tasty and healthy.</p>
+
+            <h3>Animation Series</h3>
+            <p>My favorite animated series is Naruto Shippuden its a masterpiece worth watching again and again.</p>
+
+            <h3>Photography</h3>
+            <p>Capturing moments through my camera lens is one of my passions. Here's one of my favorite shots from a recent travel:</p>
+            <div class="image-container">
+                <img src="travel.jpg" alt="Travel photo">
+            </div>
+        </div>
+    </section>
+</body>
+</html>
